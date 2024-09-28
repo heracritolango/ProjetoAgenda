@@ -51,7 +51,22 @@
     "python.analysis.typeCheckingMode": "basic",
     "cSpell.enabled": true,
     "python.formatting.provider": "none",
+    
+    "emmet.includeLanguages": { "django-html": "html" },
+    "files.associations": {
+      "**/*.html": "html",
+      "**/templates/**/*.html": "django-html",
+      "**/templates/**/*": "django-txt"
+    },
+    "[django-html]": {
+      "editor.defaultFormatter": "batisteo.vscode-django",
+      "editor.insertSpaces": false,
+      "editor.tabSize": 2
+    },
+    
 
 }
+
+
   
   
